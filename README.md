@@ -42,7 +42,7 @@ A simple PHP-based blog system with MySQL database, pagination, search, and filt
     Ensure OpenServer or another local server is running.
     Create the project gl-test.local
     Verify that Database.php contains correct database credentials:
-        <pre>
+    
         class Database {
             private $host = "localhost";
             private $dbname = "gl-test";
@@ -67,7 +67,6 @@ A simple PHP-based blog system with MySQL database, pagination, search, and filt
                 return $stmt->get_result();
             }
         }
-        </pre>
 
 🔹 3. Running the Project
     🔸 Step 1: Start the Server
